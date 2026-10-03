@@ -1,0 +1,35 @@
+# ====================================================================
+# 1. UNITY & VR (Herausfiltern von temporärem Müll und Riesenordnern)
+# ====================================================================
+**/Library/
+**/Logs/
+**/UserSettings/
+**/.plastic/
+**/.vscode/
+**/.vsconfig/
+
+# ====================================================================
+# 2. VISUAL STUDIO CODING (Blockiert die unzähligen orangenen Symbole)
+# ====================================================================
+**/*.csproj
+**/*.sln
+**/*.suo
+**/*.user
+**/*.userprefs
+**/*.pidb
+**/*.pdb
+
+# ====================================================================
+# 3. DATA SCIENCE & BIG DATA (Blockiert riesige Tabellen und PDFs)
+# ====================================================================
+**/*.csv
+**/*.tsv
+**/*.pdf
+**/Test/
+**/Train/
+
+# ====================================================================
+# 4. SYSTEM-DATEIEN (Mac & Windows Komfort-Dateien blockieren)
+# ====================================================================
+**/.DS_Store
+**/Thumbs.db
